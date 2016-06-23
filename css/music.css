@@ -1,0 +1,22 @@
+@font-face {
+    font-family: a; /*a name to be used later*/
+    src: url('../fonts/Monoton.ttf'); /*URL to font*/
+}
+
+html {
+    height: 100%
+}
+
+body { 
+	background-image: url('../images/gurren-lagann.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+h1{
+	color: white;
+	font-size: 500%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-family: a;
+}
