@@ -7,39 +7,24 @@
 		
 		
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+		<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script  src="../js\test.js"></script>
-		<link rel="stylesheet" href="../css\test.css">
+
 
 	</head>
 
-	<body >
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Jerome</a>
-				</div>
-				<ul class="nav navbar-nav">
-					<li><a href="../index.html">Home</a></li>
-					<li class="active"><a href="#">music</a></li>
-					<li><a href="#">Page 2</a></li> 
-					<li><a href="#">Page 3</a></li> 
-				</ul>
-			</div>
-		</nav>
-	
-		<div id="container">
-			<div id="slideshow">
-			</div>
-			
-			<div id="player_container">
-				<h1>Weaboo Player</h1>
-				<audio id="player" controls>
-					<source src="../music\SorairoDays.mp3" type="audio/mpeg" >
-				</audio>
-			</div>
-			
-		</div>
-	</body>
+	<head>
+       
+    </head>
+    <body>
+        <div id="selectedTarget">
+            Existing content.
+        </div>
+		
+		 <script type="text/javascript">
+           $(document).ready(function(){
+               $('#selectedTarget').load('navbar.html');
+           });
+        </script>   
+    </body>
 </html>

@@ -11,30 +11,32 @@
 		
 		<link rel="stylesheet" href="../css\index.css">
 		
+		<script  src="../js\project.js"></script>
+		
+		<script>
+		$( "#header" ).load( "navbar.html #h" , function() {
+		alert( "Load was performed." );
+		});
+		</script>
 	</head>
 	
 	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="pages\music.html">Music</a></li>
-					<li><a href="pages\projects.html">Projects</a></li> 
-					<li><a href="pages\test.html">test</a></li> 
-				</ul>
-			</div>
-		</nav>
+		<div id="header"> 
+			
+		</div>
 		
 		<div class="container">
-			<h1>Jerome Adviento</h1>
+			<h1>My Projects</h1>
 			<p>swigtty swag whats in the bag</p> 
 		</div>
-
-		<div class="well">Basic Well</div>
+		
 		
 		<audio controls src="../music\Love&Roll.mp3" type="audio/mpeg" >
 			
 		</audio>
+		
+		
+		
 	</body>
 	
 	
