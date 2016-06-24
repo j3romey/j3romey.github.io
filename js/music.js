@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var timeToDisplay = 8000;
+    var timeToDisplay = 20000;
 
     var slideshow = $('#slideshow');
     var urls = [
