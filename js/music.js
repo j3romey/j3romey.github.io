@@ -5,7 +5,9 @@ $(document).ready(function() {
     var urls = [
        '../images/k-on.jpg',
        '../images/gurren-lagann.jpg',
-       '../images/love-and-roll.jpg'
+       '../images/love-and-roll.jpg',
+	   '../images/kill-la-kill.jpg',
+	   '../images/shigatsu.jpg'
     ];
 
     var index = 0;
