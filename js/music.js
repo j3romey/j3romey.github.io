@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    var timeToDisplay = 10000;
-
+    var timeToDisplay = 50000;
+	
     var slideshow = $('#slideshow');
     var urls = [
        '../images/k-on.jpg',
