@@ -15,17 +15,14 @@
 	</head>
 
 	<body >
-		<nav class="navbar navbar-inverse ">
-			<div class="container-fluid">
-				
-				<ul class="nav navbar-nav">
-					<li><a href="../index.html">Home</a></li>
-					<li class="active"><a href="#">music</a></li>
-					<li><a href="projects.html">Projects</a></li> 
-					<li><a href="#">Page 3</a></li> 
-				</ul>
-			</div>
-		</nav>
+		<div id="selectedTarget">
+            Load Content Here
+        </div>
+		<script type="text/javascript">
+           $(document).ready(function(){
+               $('#selectedTarget').load('navbar.html');
+           });
+        </script> 
 	
 		<div id="container">
 			<div id="slideshow">
