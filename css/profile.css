@@ -10,3 +10,8 @@ h1{
 	font-family: a;
 	
 }
+
+#profile{
+	border-style: solid;
+    border-width: medium;
+}
