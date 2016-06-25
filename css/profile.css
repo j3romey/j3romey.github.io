@@ -14,4 +14,18 @@ h1{
 #profile{
 	border-style: solid;
     border-width: medium;
+	width: 50%;
+	margin-left: 2%;
+}
+
+#social{
+	position: bottom;
+	border-style: solid;
+    border-width: medium;
+}
+
+#social-img{
+	position: center;
+	border-style: solid;
+    border-width: medium;
 }
