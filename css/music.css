@@ -41,6 +41,9 @@ h1{
 	font-size: 500%;
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 	font-family: a;
+	position: absolute;
+	margin-left: 5%;
+	opacity: 0.75;
 	
 }
 
