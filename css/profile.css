@@ -14,8 +14,9 @@ h1{
 #profile{
 	border-style: solid;
     border-width: medium;
-	width: 50%;
-	margin-left: 2%;
+	width: 25%;
+	height: 100%;
+	padding-left: 2%;
 }
 
 #social{
