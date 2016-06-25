@@ -12,6 +12,7 @@ h1{
 }
 
 #profile{
+	text-align: center;
 	border-style: solid;
     border-width: medium;
 	width: 30%;
