@@ -1,11 +1,10 @@
 p {
-    color: blue;
+    color: black;
 }
 
 
 h1{
-	color: white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: black;
 	font-family: a;
 	
 }
@@ -34,7 +33,7 @@ h1{
 	position: center;
 	border-style: solid;
     border-width: medium;
-	padding-top: 1%;
+	padding-top: 50%;
 }
 
 #about{
