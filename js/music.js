@@ -7,7 +7,12 @@ $(document).ready(function() {
        '../images/gurren-lagann.jpg',
        '../images/love-and-roll.jpg',
 	   '../images/kill-la-kill.jpg',
-	   '../images/shigatsu.jpg'
+	   '../images/shigatsu.jpg',
+	   '../images/kiznaiver.png',
+	   '../images/guilty-crown.jpg',
+	   '../images/psycho-pass.jpg',
+	   '../images/amagi.jpg',
+	   '../images/saekano.png'
     ];
 
     var index = 0;
