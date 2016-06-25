@@ -21,7 +21,6 @@ img{
 	width: 30%;
 	height: 100%;
 	padding-left: 1%;
-	padding-bottom: 5%;
 }
 
 #name{
@@ -38,6 +37,7 @@ img{
 	position: center;
 	border-style: solid;
     border-width: medium;
+	padding-top: 5%;
 	
 }
 
