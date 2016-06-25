@@ -36,7 +36,7 @@ h1{
 }
 
 #social > div {
-    width: 100px; /* Declare your value. Can be in relative units. */
+    width: 25px; /* Declare your value. Can be in relative units. */
     display: inline-block;
     vertical-align: top;
 }
