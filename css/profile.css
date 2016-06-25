@@ -17,7 +17,6 @@ h1{
     border-width: medium;
 	width: 30%;
 	height: 100%;
-	padding-left: 1%;
 	border-color: blue;
 }
 
@@ -27,15 +26,24 @@ h1{
 
 #social{
 	padding-top: 20px;
+	padding-bottom: 20px;
 	position: bottom;
 	border-style: solid;
     border-width: medium;
 	height: auto;
 	border-color: red;
+	text-align: justify;
 }
 
-.social-img{
-	position: center;
+#social > div {
+    width: 100px; /* Declare your value. Can be in relative units. */
+    display: inline-block;
+    vertical-align: top;
+}
+#social:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
 }
 
 #about{
