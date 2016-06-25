@@ -9,6 +9,10 @@ h1{
 	
 }
 
+img{
+	padding-right: 2%;
+}
+
 #profile{
 	float: left;
 	text-align: center;
@@ -17,6 +21,7 @@ h1{
 	width: 30%;
 	height: 100%;
 	padding-left: 1%;
+	padding-bottom: 5%;
 }
 
 #name{
@@ -33,7 +38,7 @@ h1{
 	position: center;
 	border-style: solid;
     border-width: medium;
-	padding-top: 50%;
+	
 }
 
 #about{
