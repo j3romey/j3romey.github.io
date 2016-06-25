@@ -11,6 +11,9 @@
 		
 		<link rel="stylesheet" href="../css\music.css">
 		<script  src="../js\music.js"></script>
+		
+		<script  src="../js\player.js"></script>
+		<link rel="stylesheet" href="../css\player.css" type="text/css">
 	</head>
 
 	<body >
@@ -36,15 +39,24 @@
 		<!-- -->
 	
 		<div id="container">
+			<div id="player">
+			<audio id="audio" controls ">
+				<source type="audio/mp3" src="../music\SorairoDays.mp3" type="audio/mpeg" > Sorry, your browser does not support HTML5 audio.
+			</audio>
+			<ul id="playlist">
+				<li class="active"><a href="../music\SorairoDays.mp3" type="audio/mpeg">Sorairo Days</a></li>
+				<li><a href="../music\Don't Say Lazy.mp3">Don't Say Lazy</a></li>
+				<li><a href="../music\Go!Go! Maniac.mp3">Go! Go! Maniac</a></li>
+				<li><a href="../music\Love&Roll.mp3">Love & Roll</a></li>
+
+			</ul>
+
+			</div>
+		
 			<div id="slideshow">
 			</div>
 			
-			<div id="player_container">
-				<h1>Weaboo Player</h1>
-				<audio id="player" controls>
-					<source src="../music\SorairoDays.mp3" type="audio/mpeg" >
-				</audio>
-			</div>
+			
 			
 		</div>
 	</body>

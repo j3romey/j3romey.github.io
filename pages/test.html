@@ -12,7 +12,8 @@
 		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		
 		<script  src="../js\navbar.js"></script>
-
+		<script  src="../js\player.js"></script>
+		<link rel="stylesheet" href="../css\player.css" type="text/css">
 	</head>
 
 	<head>
@@ -39,9 +40,20 @@
 			</div>
 		</nav>  
 		
+		
 		<div>
-            Test Zone
-        </div>
+			<audio id="audio" controls ">
+				<source type="audio/mp3" src="../music\SorairoDays.mp3" type="audio/mpeg" > Sorry, your browser does not support HTML5 audio.
+			</audio>
+			<ul id="playlist">
+				<li class="active"><a href="../music\SorairoDays.mp3" type="audio/mpeg">Sorairo Days</a></li>
+				<li><a href="../music\Don't Say Lazy.mp3">Don't Say Lazy</a></li>
+				<li><a href="../music\Go!Go! Maniac.mp3">Go! Go! Maniac</a></li>
+				<li><a href="../music\Love&Roll.mp3">Love & Roll</a></li>
+
+			</ul>
+
+		</div>
 		
     </body>
 </html>

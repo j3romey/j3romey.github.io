@@ -1,0 +1,31 @@
+#playlist {
+  background-color: rgba(102,102,102, 0.5);
+  width: 400px;
+  padding: 20px;
+}
+
+audio{
+	width: 400px;
+	padding: 20px;
+}
+
+#playlist .active a {
+  color: #5DB0E6;
+  text-decoration: none;
+}
+
+#playlist li a {
+  color: #eeeedd;
+  background-color: rgba(51,51,51,0.75);
+  padding: 5px;
+  display: block;
+}
+
+#playlist li a:hover {
+  text-decoration: none;
+}
+
+#player{
+	position: absolute;
+	margin-top: 5%;
+}
