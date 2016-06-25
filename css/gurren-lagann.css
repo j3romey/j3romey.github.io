@@ -1,0 +1,69 @@
+body{
+	background-image: url('../images/gurren/background.png');
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: a; /*a name to be used later*/
+    src: url('../fonts/Dry Brush.ttf'); /*URL to font*/
+}
+
+h1{
+	color: white;
+	font-size: 500%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-family: a;
+	
+}
+
+h2{
+	color: red;
+	font-size: 500%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-family: a;
+	text-align: center;
+	
+	
+	
+}
+
+
+#info{
+	float: left;
+	background-color: rgba(255,255,255,0.5);
+	color: black;
+	width: 35%;
+	height: 75%;
+    padding: 10px;
+    margin-left: 5%; 
+	
+}
+
+#game{
+	
+	float:left;
+	width: 50%;
+	height: 75%;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 5%; 
+}
+
+ul li{
+	font-size:15px;
+	font-weight: bold;
+	
+}
+
+.tabs{
+	color: black;
+}
+
+p{
+	font-size:15px;
+	font-weight: bold;
+	margin-top:2%;
+	margin-left:3%;
+	margin-right:3%;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

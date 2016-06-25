@@ -10,13 +10,15 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		
 		<link rel="stylesheet" href="../css\index.css">
-		<script  src="../js\thumbnail.js"></script>
+		<link rel="stylesheet" href="../css\gurren-lagann.css">
+		
+
 		
 	</head>
 	
 	<body>
 		<!-- Manual Shit Header -->
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse navbar-static-top">
 			<div class="container-fluid">
 				<ul class="nav navbar-nav">
 					<li><a href="../index.html">Jerome Adviento</a></li>
@@ -36,51 +38,50 @@
 		</nav>  
 		<!-- -->
 		
-		<div class="alert alert-info">
-			<strong>Notice!</strong> Content on this page is currently in progress.
-		</div>
 		
 		<h1>
 			Gurren Lagann
 		</h1>
 		
-		<div class="container">
-			<div class="row">
-				<h1>Bootstrap 3 Lightbox using Modal</h1>
-				<div class="row">
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 1"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 2"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 3"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 1"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 2"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 3"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 1"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 2"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 3"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 1"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 3"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-					<div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 3"><img src="../images/gurren-lagann.jpg" class="thumbnail img-responsive"></a></div>
-				<hr>
-					<a href="http://bootply.com/71401">Edit on Bootply</a>
-				<hr>
-			</div>
-		</div>
-		<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">×</button>
-						<h3 class="modal-title">Heading</h3>
-					</div>
-					<div class="modal-body">
-		
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
+		<div id="info">
+			<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+				<li  class="active"><a class="tabs"  href="#abt" data-toggle="tab">About</a></li>
+				<li><a class="tabs" href="#ins" data-toggle="tab">Instructions</a></li>
+				<li><a class="tabs" href="#rsc" data-toggle="tab">Resources</a></li>
+			</ul>
+			
+			<div id="my-tab-content" class="tab-content">
+				<div class="tab-pane active" id="abt">
+					<h2> ROW ROW <br/>  FIGHT THE POWER</h2>
+				</div>
+				
+				<div class="tab-pane" id="ins">
+					<p><span class="glyphicon glyphicon-arrow-up"></span>: move up </p>
+					<p><span class="glyphicon glyphicon-arrow-down"></span>: move down </p>
+					<p><span class="glyphicon glyphicon-arrow-left"></span>: move left </p>
+					<p><span class="glyphicon glyphicon-arrow-right"></span>: move right </p>
+					<p><strong>spacebar</strong>: bomb </p>
+				</div>
+				
+				<div class="tab-pane" id="rsc">
+					
+					<p>	I've always wanted to create a bullet hell game 
+						eversince I've played them as a kid. I was was always
+						fascinated by it for some odd reason. Anyways here is 
+						my simple bullet hell game, with its theme based on the
+						anime Tengen Toppa Gurren Lagann created by GAINAX.
+						<br/>
+						<br/>
+						I hope you enjoy</p>
 				</div>
 			</div>
 		</div>
+		
+		<div id="game">
+			<h2> GAME <br />  OVER</h2>
+		<div>
+
+		
 		
 	</body>
 	
