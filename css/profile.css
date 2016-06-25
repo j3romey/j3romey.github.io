@@ -31,19 +31,11 @@ h1{
 	border-style: solid;
     border-width: medium;
 	height: auto;
-	text-align: justify;
+	text-align: center;
+	margin: 10px;
 }
 
-#social > div {
-    width: 25px; /* Declare your value. Can be in relative units. */
-    display: inline-block;
-    vertical-align: top;
-}
-#social:after {
-    content: "";
-    width: 100%;
-    display: inline-block;
-}
+
 
 #about{
 	float: left;
