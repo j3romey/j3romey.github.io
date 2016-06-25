@@ -33,11 +33,10 @@ img{
     border-width: medium;
 }
 
-#social-img{
+.social-img{
 	position: center;
 	border-style: solid;
     border-width: medium;
-	padding-top: 5%;
 	
 }
 
