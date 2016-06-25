@@ -25,9 +25,11 @@ h1{
 }
 
 #social{
+	padding-top: 20px;
 	position: bottom;
 	border-style: solid;
     border-width: medium;
+	height: auto;
 }
 
 .social-img{
