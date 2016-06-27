@@ -3,16 +3,16 @@ $(document).ready(function() {
 	
     var slideshow = $('#slideshow');
     var urls = [
-       '../images/k-on.jpg',
-       '../images/gurren-lagann.jpg',
-       '../images/love-and-roll.jpg',
-	   '../images/kill-la-kill.jpg',
-	   '../images/shigatsu.jpg',
-	   '../images/kiznaiver.png',
-	   '../images/guilty-crown.jpg',
-	   '../images/psycho-pass.jpg',
+	   '../images/gurren-lagann.jpg',
 	   '../images/amagi.jpg',
-	   '../images/saekano.png'
+       '../images/guilty-crown.jpg',
+	   '../images/kill-la-kill.jpg',
+	   '../images/kiznaiver.png',
+	   '../images/k-on.jpg',
+	   '../images/psycho-pass.jpg',
+	   '../images/saekano.png',
+	   '../images/shigatsu.jpg',
+	   '../images/love-and-roll.jpg'
     ];
 
     var index = 0;

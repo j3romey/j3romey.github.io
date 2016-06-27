@@ -51,3 +51,5 @@ h1{
 	width: 50%;
 	padding-left: 5%;
 }
+
+div#preload { display: none; }
