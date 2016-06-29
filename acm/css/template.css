@@ -26,39 +26,11 @@ html {
 	padding-left: 5%;
 }
 
+.navbar-right{
+	padding-right: 4%;
+}
+
 /*body*/
-
-.body-header{
-	text-align: center;
-	font-family: Garamond;
-	font-size: 500%;
-	font-weight: 900;
-	color: #0066ff;
-	background-color: rgba(51,51,51,0.125);
-	margin:2px;
-	
-}
-
-p{
-	text-align: center;
-	font-size: 200%;
-}
-
-.product-list{
-	height: 200px;
-	width: 30%;
-	margin: 5px;
-	float: left;
-}
-
-.product-list p{
-	text-align: left;
-	padding-left: 5%;
-}
-
-li{
-	font-size: 125%;
-}
 
 
 /* footer */
@@ -66,7 +38,7 @@ li{
 	bottom:0;
 	width:100%;
 	height:200px;   /* Height of the footer */
-	margin-top:20%;
+	margin-top:5%;
 	background:#0066ff;
 }
 
@@ -92,6 +64,46 @@ li{
   font-size: 150%;
   margin-bottom: 0 px;
 }
+ .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #0066ff;
+    color:#ffffff;
+	display: inline-block; 
+	width: 100%;
+  }
+  
+/* */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #1d77ff;
+	color: #FFFFFF;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+	width: 100%;
+	font-size: 90%;
+	background-color: #0066ff; 
+	color: #FFFFFF;
+}
+
+.dropdown:hover .dropdown-menu li > a{
+	
+    color: #FFFFFF;
+}
+
+.dropdown:hover .dropdown-menu li > a:hover{
+	
+    background-color: #1d77ff;
+    color: #FFFFFF;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+
+  }
+}
+
+/* */
+
 .navbar-default .navbar-brand {
   color: #ffffff;
 }
