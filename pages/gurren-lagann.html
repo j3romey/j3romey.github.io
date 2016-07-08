@@ -5,6 +5,13 @@
 		
 		<meta name="viewport" content="width=devvice-width, initial-scale=1">
 		
+		<title>Unity WebGL Player | BulletHell</title>
+		<link rel="stylesheet" href="TemplateData/style.css">
+		<link rel="shortcut icon" href="TemplateData/favicon.ico" />
+		<script src="TemplateData/UnityProgress.js"></script>
+	
+		
+		
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -12,7 +19,7 @@
 		<link rel="stylesheet" href="../css\index.css">
 		<link rel="stylesheet" href="../css\gurren-lagann.css">
 		
-
+		
 		
 	</head>
 	
@@ -77,9 +84,25 @@
 			</div>
 		</div>
 		
-		<div id="game">
-			<h2> GAME <br />  OVER</h2>
-		<div>
+	<div id="game">
+			<p class="header"><span>Unity WebGL Player | </span>BulletHell</p>
+		
+			<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="675px" width="650px"></canvas>
+			<br>
+			
+			
+    <script type='text/javascript'>
+		var Module = {
+		TOTAL_MEMORY: 268435456,
+		errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+		compatibilitycheck: null,
+		dataUrl: "Release/Desktop.data",
+		codeUrl: "Release/Desktop.js",
+		memUrl: "Release/Desktop.mem",
+	};
+	</script>
+	<script src="Release/UnityLoader.js"></script>
+	</div>
 
 		
 		
