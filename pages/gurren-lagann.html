@@ -1,108 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Unity WebGL Player | BulletHell</title>
-		<link rel="stylesheet" href="TemplateData/style.css">
-		<script src="TemplateData/UnityProgress.js"></script>
-	
-		
-		
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		
-		<link rel="stylesheet" href="../css\index.css">
-		<link rel="stylesheet" href="../css\gurren-lagann.css">
-		
-		
-		
-	</head>
-	
-	<body>
-		<!-- Manual Shit Header -->
-		<nav class="navbar navbar-inverse navbar-static-top">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav">
-					<li><a href="../index.html">Jerome Adviento</a></li>
-					<li><a href="music.html">Music</a></li>
-					<li class="dropdown active">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
-						<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="gurren-lagann.html">Gurren Lagann</a></li>
-							<li><a href="porkers.html">Porkers</a></li>
-							<li><a href="daniel.html">Daniel</a></li>
-						</ul>
-					</li>
-					<li><a href="test.html">test</a></li> 
-				</ul>
-			</div>
-		</nav>  
-		<!-- -->
-		
-		
-		<h1>
-			Gurren Lagann
-		</h1>
-		
-		<div id="info">
-			<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-				<li  class="active"><a class="tabs"  href="#abt" data-toggle="tab">About</a></li>
-				<li><a class="tabs" href="#ins" data-toggle="tab">Instructions</a></li>
-				<li><a class="tabs" href="#rsc" data-toggle="tab">Resources</a></li>
-			</ul>
-			
-			<div id="my-tab-content" class="tab-content">
-				<div class="tab-pane active" id="abt">
-					<h2> ROW ROW <br/>  FIGHT THE POWER</h2>
-				</div>
-				
-				<div class="tab-pane" id="ins">
-					<p><span class="glyphicon glyphicon-arrow-up"></span>: move up </p>
-					<p><span class="glyphicon glyphicon-arrow-down"></span>: move down </p>
-					<p><span class="glyphicon glyphicon-arrow-left"></span>: move left </p>
-					<p><span class="glyphicon glyphicon-arrow-right"></span>: move right </p>
-					<p><strong>spacebar</strong>: bomb </p>
-				</div>
-				
-				<div class="tab-pane" id="rsc">
-					
-					<p>	I've always wanted to create a bullet hell game 
-						eversince I've played them as a kid. I was was always
-						fascinated by it for some odd reason. Anyways here is 
-						my simple bullet hell game, with its theme based on the
-						anime Tengen Toppa Gurren Lagann created by GAINAX.
-						<br/>
-						<br/>
-						I hope you enjoy</p>
-				</div>
-			</div>
-		</div>
-		
-	<div id="game">
-			<p class="header"><span>Unity WebGL Player | </span>BulletHell</p>
-		
-			<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="675px" width="650px"></canvas>
-			<br>
-			
-			
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | BulletHell</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>BulletHell</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="900px" width="600px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">BulletHell</div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
     <script type='text/javascript'>
-		var Module = {
-		TOTAL_MEMORY: 268435456,
-		errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-		compatibilitycheck: null,
-		dataUrl: "Release/Desktop.data",
-		codeUrl: "Release/Desktop.js",
-		memUrl: "Release/Desktop.mem",
-	};
-	</script>
-	<script src="Release/UnityLoader.js"></script>
-	</div>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/Development.data",
+    codeUrl: "Release/Development.js",
+    memUrl: "Release/Development.mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
 
-		
-		
-	</body>
-	
+  </body>
 </html>
