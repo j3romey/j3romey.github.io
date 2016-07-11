@@ -6,14 +6,9 @@ p {
 h1{
 	color: black;
 	font-family: a;
-	margin-left: auto;
-    margin-right: auto;
 }
 
-h6{
-	margin-left: auto;
-    margin-right: auto;
-}
+
 
 #profile_container{
 	width: 100%;
@@ -28,7 +23,7 @@ h6{
 	background-color: #FFFFFF;
 }
 
-#name{
+.center_text{
 	position: center;
 }
 
