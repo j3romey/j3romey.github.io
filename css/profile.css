@@ -44,7 +44,7 @@ h1{
 
 .about_info{
 	margin: 2%;
-	width: 100%;
+	width: auto;
 	height: 30%;
 	background-color: gray;
 }
