@@ -24,7 +24,7 @@ h1{
 }
 
 .center_text{
-	position: center;
+	text-align: center;
 }
 
 #social{
