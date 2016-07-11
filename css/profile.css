@@ -36,8 +36,8 @@ h1{
 
 
 #about_container{
-	
-	width: 70%;
+	float: left;
+	width: 100%;
 	height: 100%;
 	background-color: blue; /*#C8C8C8; */
 }
