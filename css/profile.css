@@ -27,13 +27,20 @@ h1{
 }
 
 #social{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	position: bottom;
 	height: auto;
 	text-align: center;
 	margin: 25px;
 }
 
-
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #about_container{
 	float: left;
