@@ -16,6 +16,7 @@ h1{
 }
 
 #profile{
+	float: left;
 	width: 30%;
 	height: 100%;
 	background-color: #FFFFFF;
@@ -35,7 +36,7 @@ h1{
 
 
 #about_container{
-	float: left;
+	
 	width: 70%;
 	height: 100%;
 	background-color: blue; /*#C8C8C8; */
