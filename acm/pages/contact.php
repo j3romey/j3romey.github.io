@@ -20,35 +20,19 @@
 	<body>
 	
 		<!-- header & navbar -->
-		<div class="page-header">
-			<h1 id = "company-name" >
-				ACM & Associates
-			</h1>
-		</div>
+		<?php
+			$path = $_SERVER['DOCUMENT_ROOT'];
+			$path .= "/includes/header.php";
+			include_once($path);
+		?>
+
+		<!--navbar -->
+		<?php
+			$path = $_SERVER['DOCUMENT_ROOT'];
+			$path .= "/includes/nav.php";
+			include_once($path);
+		?>
 		
-		<div>
-			<nav class="navbar-default">
-				<div class="container-fluid">
-					<ul class="nav navbar-nav">
-						<li><a href="../index.html">Home</a></li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" href="product.html">Our Products
-							<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Insurance</a></li>
-								<li><a href="#">Investment</a></li>
-								<li><a href="#">Others</a></li> 
-							</ul>
-						</li>
-						<li><a href="#">Careers</a></li> 
-						<li><a href="#">Our Associates</a></li> 
-					</ul>
-					<ul class="nav navbar-nav navbar-right" id="contact-us">
-						<li class="active"><a href="#">Contact Us</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
 		
 		<!-- body -->
 		<div id="body">
@@ -75,7 +59,7 @@
 			<div class="contact-profile top">
 				<div class="row">
 					<div class="col-xs-3">
-						<img src="../images\members\art.jpg" class="img-circle" alt="Arturo Adviento" width="200" height="225">
+						<img src="../images\members\art.jpg" class="img-circle" alt="Arturo Adviento" >
 					</div>
 					<div class="col-xs-6">
 						<h2>Arturo Adviento</h2>
@@ -89,8 +73,9 @@
 			<div class="contact-profile">
 				<div class="row">
 					<div class="col-xs-3">
-						<img src="../images\members\jun.jpg" class="img-circle" alt="Jun Cruz" width="200" height="225">
+						<img src="../images\members\jun.jpg" class="img-circle" alt="Jun Cruz" >
 					</div>
+					
 					<div class="col-xs-6">
 						<h2>Jun Cruz</h2>
 						<p>Phone: 403-651-7407 </br>

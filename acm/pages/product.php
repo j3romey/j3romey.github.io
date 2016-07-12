@@ -20,41 +20,24 @@
 	<body>
 	
 		<!-- header & navbar -->
-		<div class="page-header">
-			<h1 id = "company-name" >
-				ACM & Associates
-			</h1>
-		</div>
-		
-		<div>
-			<nav class="navbar-default">
-				<div class="container-fluid">
-					<ul class="nav navbar-nav">
-						<li><a href="../index.html">Home</a></li>
-						<li  class="dropdown active">
-							<a class="dropdown-toggle" href="#">Our Products
-							<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Insurance</a></li>
-								<li><a href="#">Investment</a></li>
-								<li><a href="#">Others</a></li> 
-							</ul>
-						</li>
-						<li><a href="#">Careers</a></li> 
-						<li><a href="#">Our Associates</a></li> 
-					</ul>
-					<ul class="nav navbar-nav navbar-right" id="contact-us">
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+		<?php
+			$path = $_SERVER['DOCUMENT_ROOT'];
+			$path .= "/includes/header.php";
+			include_once($path);
+		?>
+
+		<!--navbar -->
+		<?php
+			$path = $_SERVER['DOCUMENT_ROOT'];
+			$path .= "/includes/nav.php";
+			include_once($path);
+		?>
 		
 		<!-- body -->
 		<div id="body">
 			
 			<div class="header-photo">
-				<img src="http://placehold.it/1280x400?text=Placeholder"> 
+				<img src="http://placehold.it/1210x400?text=Placeholder"> 
 			</div>
 			<div class="product-services">
 				<h1> Products & Services </h1>
@@ -62,7 +45,7 @@
 			
 			<div class="row">
 				<div class="col-xs-4">
-					<img class="img-circle" src="http://placehold.it/300x300?text=Placeholder"> 
+					<img class="img-circle center-image" src="http://placehold.it/300x300?text=Placeholder"> 
 					<p>Insurance</p>
 					<ul>
 						<li> Life </li>
@@ -72,7 +55,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-4">
-					<img class="img-circle" src="http://placehold.it/300x300?text=Placeholder"> 
+					<img class="img-circle center-image" src="http://placehold.it/300x300?text=Placeholder"> 
 					<p>Investment<p>
 					<ul>
 						<li> RRSP </li>
@@ -83,10 +66,10 @@
 					</ul>
 				</div>
 				<div class="col-xs-4">
-					<img class="img-circle" src="http://placehold.it/300x300?text=Placeholder"> 
+					<img class="img-circle center-image" src="http://placehold.it/300x300?text=Placeholder"> 
 					<p>Other</p>
 					<ul>
-						<li> Extended Health Care Plans </li>
+						<li> Extended Health </br>Care Plans </li>
 						<li> Travel Insurance Plans </li>
 						<li> Group Plans </li>
 					</ul>

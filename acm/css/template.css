@@ -3,6 +3,12 @@ html {
 	width: 100%;
 }
 
+.center-image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 @font-face {
     font-family: companyName; /*a name to be used later*/
@@ -14,13 +20,38 @@ html {
 	font-family: Garamond;
 	font-size: 5.5vw;
 	font-weight: 900;
-	color: #0066ff;
+	color: #003EFF;
 }
 
 .page-header{
 	padding-left: 5%;
 	border-bottom: none;
-	 
+	
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	
+}
+
+.page-header h2{
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	padding-bottom: 2px;
+	font-weight: bold;
+}
+
+.row{
+	width: 100%;
+}
+
+
+
+.page-header img{
+    z-index:-100;
+    position:absolute;
+    left:0;
+    top:0;
+	width: 95%;
+	height: 250px;
+
 }
 
 .container-fluid{
@@ -39,7 +70,7 @@ html {
 	width:100%;
 	height:200px;   /* Height of the footer */
 	margin-top:1%;
-	background:#0066ff;
+	background:#003EFF;
 }
 
 .footer-element{
@@ -60,13 +91,13 @@ html {
 
 /* nav bar */
 .navbar-default {
-  background-color: #0066ff;
+  background-color: #003EFF;
   border-color: #1d77ff;
   font-size: 150%;
   margin-bottom: 0 px;
 }
  .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
-    background-color: #0066ff;
+    background-color: #003EFF;
     color:#ffffff;
 	display: inline-block; 
 	width: 100%;
@@ -81,7 +112,7 @@ html {
 .navbar-nav > li > .dropdown-menu { 
 	width: 100%;
 	font-size: 90%;
-	background-color: #0066ff; 
+	background-color: #003EFF; 
 	color: #FFFFFF;
 }
 
