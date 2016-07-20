@@ -1,5 +1,4 @@
-html, body { height: 100%; width: 100%; margin: 0; }
-div { height: 100%; width: 100%;}
+html, body { min-height: 100%; width: 100%; margin: 0; }
 
 .navbar {
     margin-bottom: 0;
