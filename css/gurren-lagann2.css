@@ -1,7 +1,8 @@
 body{
-	background-image: url('../images/kiznaiver.png');
+	background-image: url('../images/yoshitsune.png');
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
+	height: 100%;
 }
 
 @font-face {
@@ -34,7 +35,7 @@ h2{
 	background-color: rgba(255,255,255,0.5);
 	color: black;
 	width: 20%;
-	height: 75%;
+	height: 85%;
     padding: 10px;
     margin-left: 5%; 
 	
@@ -44,7 +45,7 @@ h2{
 	
 	float:left;
 	width: 65%;
-	height: 75%;
+	height: 85%;
 	background-color: rgba(255,255,255,0.5);
 	margin-left: 5%; 
 }
