@@ -1,6 +1,0 @@
-Kiyomori,Ahh... lady Tokiwa. You look as beautiful as ever. My condolences to your husband.,0
-Tokiwa,What do you want from us Kiyomori?!!,1
-Kiyomori,I am a merciful leader. Become my concubine and i shall spare the lives of your children,0
-Tokiwa,....,1
-Tokiwa,Very well… i shall be your concubine in exchange for my children’s safety,1
-Kiyomori,Excellent!,0 
