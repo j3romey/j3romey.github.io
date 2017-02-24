@@ -9,7 +9,8 @@ var w;
 
 function setup() {
   console.log(width)
-  createCanvas(displayWidth, displayHeight/2);
+  createCanvas(displayWidth, displayHeight/1.5);
+  colorMode(HSB);
   song = loadSound("FuwaFuwaTime.mp3", loaded);
   button = createButton("play");
   button.mousePressed(togglePlaying)
@@ -45,7 +46,8 @@ function draw() {
   for(var i = 0; i < spectrum.length; i++){
       var amp = spectrum[i];
       var y = map(amp, 0, 255, height, 0);
-      line(i*w*1.5, height, i*w*1.5, y);
+      fill(y, 255,255);
+      rect(i*w*1.5, y, w*1.5, height - y);
   }
   //console.log(spectrum.length);
   stroke(255);
