@@ -7,13 +7,24 @@ var sliderVol;
 var volhistory = [];
 var w;
 
+var kon = "FuwaFuwaTime.mp3";
+var kimi = "Sparkle.mp3";
+
+
 function setup() {
+  song = loadSound("Sparkle.mp3", loaded);
   console.log(width)
   createCanvas(displayWidth, displayHeight/1.5);
   colorMode(HSB);
-  song = loadSound("FuwaFuwaTime.mp3", loaded);
   button = createButton("play");
-  button.mousePressed(togglePlaying)
+  button.mousePressed(togglePlaying);
+  fuwaButton = createButton("FuwaFuwaTime.mp3");
+  sprkButton = createButton("Sparkle.mp3");
+
+  //fuwaButton.mousePressed(loadSong("FuwaFuwaTime.mp3"));
+  sprkButton.mousePressed(function(loadSprk){loadSong(kimi);});
+  fuwaButton.mousePressed(function(loadFuwa){loadSong(kon);});
+
   sliderVol = createSlider(0, 100, 50);
   song.setVolume(.5);
 
@@ -21,6 +32,8 @@ function setup() {
   //amp.setInput(song);
   w = width / 128;
 }
+
+
 
 function togglePlaying(){
     if(!song.isPlaying()){
@@ -35,6 +48,13 @@ function togglePlaying(){
 function loaded() {
   //song.play();
   console.log("song loaded");
+}
+
+function loadSong(name){
+    song.stop();
+    //songsetAttribute('src',theNewSource)
+    //song = loadSong("Sparkle.mp3", loaded);
+    song = loadSound(name, loaded);
 }
 
 function draw() {
@@ -52,7 +72,5 @@ function draw() {
   //console.log(spectrum.length);
   stroke(255);
   noFill();
-
-
 
 }

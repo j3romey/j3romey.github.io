@@ -32,6 +32,7 @@ function init() {
   });
 }
 
+
 function run(link, player) {
   player.src = link.attr('href');
   par = link.parent();
