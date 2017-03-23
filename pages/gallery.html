@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Test Gallery</title>
+</head>
+
+<body>
+ <!--<img src="logo.png" style ="width:125px; height:100px">-->
+    <ul class="w3-navbar w3-grey w3-large w3-card-2">
+        <li class="w3-hide-medium w3-hide-large w3-grey w3-opennav w3-right">
+            <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+        </li>
+        <li class="w3-hide-small w3-right"><a href="resume.pdf">Resume</a></li>
+        <li class="w3-hide-small w3-right"><a href="#">Projects</a></li>
+        <li class="w3-hide-small w3-right"><a href="#">Gallery</a></li>
+    </ul>
+
+    <div id="demo" class="w3-hide w3-hide-large w3-hide-medium">
+        <ul class="w3-navbar w3-left-align w3-large w3-grey">
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Gallery</a></li>
+        </ul>
+    </div>  
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+</body>
+</html>

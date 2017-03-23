@@ -2,25 +2,33 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="index.css?version=1">
+    <link rel="stylesheet" type="text/css" href="timeline.css">
     <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Title of the document</title>
+    <title>Best Site</title>
 </head>
 
 <body>
     <!--<img src="logo.png" style ="width:125px; height:100px">-->
-    <ul class="w3-navbar w3-grey w3-large w3-card-2">
-        <li class="w3-hide-medium w3-hide-large w3-grey w3-opennav w3-right">
+    <ul class="w3-navbar w3-blue w3-large">
+        <li class="w3-hide-medium w3-hide-large w3-blue w3-opennav w3-right">
             <a href="javascript:void(0);" onclick="myFunction()">☰</a>
         </li>
-        <li class="w3-hide-small w3-right"><a href="#">Resume</a></li>
+        <li class="w3-hide-small w3-right"><a href="resume.pdf">Resume</a></li>
         <li class="w3-hide-small w3-right"><a href="#">Projects</a></li>
         <li class="w3-hide-small w3-right"><a href="#">Gallery</a></li>
     </ul>
 
     <div id="demo" class="w3-hide w3-hide-large w3-hide-medium">
-        <ul class="w3-navbar w3-left-align w3-large w3-grey">
-        <li><a href="#">Resume</a></li>
+        <ul class="w3-navbar w3-left-align w3-large w3-blue">
+        <li><a href="resume.pdf">Resume</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Gallery</a></li>
         </ul>
@@ -40,55 +48,96 @@
    
     <div class="w3-layout-container " style="border-spacing:16px">
          <!-- left column -->
-        <div class="w3-third w3-container w3-animate-opacity">
+        <div class=" w3-third w3-container w3-animate-opacity">
             <div class="w3-center w3-image">
                 <img src="https://raw.githubusercontent.com/j3romey/j3romey.github.io/master/images/profile.png" class="w3-circle" alt="Norway" style="width: 80%">
             </div>
             <div class="w3-center w3-padding-16">
-               <img src="http://www.freeiconspng.com/uploads/linkedin-logo-3.png" class="w3-hover-opacity" style ="width:36px; height:36px">
+               <img src="https://www.freeiconspng.com/uploads/linkedin-logo-3.png" class="w3-hover-opacity" style ="width:36px; height:36px">
                <img src="https://image.flaticon.com/icons/png/512/3/3641.png" class="w3-hover-opacity" style ="width:36px; height:36px">
-               <img src="https://images.seeklogo.net/2015/09/google-mail-logo-vector-download.jpg" class="w3-hover-opacity" style ="width:36px; height:36px">
+               <a href="mailto:jerome.adviento@hotmail.com"><img  src="https://images.seeklogo.net/2015/09/google-mail-logo-vector-download.jpg" class="w3-hover-opacity" style ="width:36px; height:36px"></a>
             </div>
-            <div class="w3-margin-left">
-                <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large "></i>Software Developer</p>
-                <p><i class="fa fa-home fa-fw w3-margin-right w3-large "></i>AB, Canada</p>
-                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large"></i>jerome.adviento@hotmail.com</p>
-                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large"></i>403-401-1537</p>
+            <div id = "contact" class=" w3-container">
+                <p> <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-padding-8"></i>Software Developer</p>
+                <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-padding-8"></i>Canada, AB, Calgary</p>
+                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-padding-8"></i>jerome.adviento@hotmail.com</p>
+                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-padding-8"></i>403-401-1537</p>
             </div>
         </div>
          <!-- right column -->
-        <div class="w3-twothird w3-container w3-animate-bottom ">
+        <div id="info" class="w3-twothird w3-container w3-animate-bottom w3-padding-jumbo">
             <h2 class="w3-text-grey"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge "></i>About Me</h2>
-            <p>I am currently a fourth year student at the University of Calgary. I love learning about new techno</p>
+            <p>Currently a  4<sup>th</sup> year student at the University of Calgary pursuing a Bachelor of Science degree in Computer Science. </br>
+               Graduation's so close YAY! :) </br> </br>
+               I love learning new technology and tinkering with them through their various applications. I'm also more interested in designing applications for 
+               users to interact with to deliver a fun and unique experience. As such I've become profcient with Unity as well as C# and </p>
             <hr>
-            <h2 class="w3-text-grey"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge "></i>Skills</h2>
+
+            <h2 class="w3-text-grey"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge "></i>Programming Languages</h2>
             <p>Java</p>
-            <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
+            <div class="w3-progress-container w3-round-xlarge w3-small w3-margin">
+                <div class="w3-progressbar w3-round-xlarge w3-blue" style="width:90%">
                     <div class="w3-center w3-text-white">90%</div>
                 </div>
             </div>
             <p>C#</p>
-            <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
+            <div class="w3-progress-container w3-round-xlarge w3-small w3-margin">
+                <div class="w3-progressbar w3-round-xlarge w3-blue" style="width:90%">
                     <div class="w3-center w3-text-white">90%</div>
                 </div>
             </div>
            
             <p>Python</p>
-            <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
-                    <div class="w3-center w3-text-white">90%</div>
+            <div class="w3-progress-container w3-round-xlarge w3-small w3-margin">
+                <div class="w3-progressbar w3-round-xlarge w3-blue" style="width:70%">
+                    <div class="w3-center w3-text-white">70%</div>
                 </div>
             </div>
          
-            <p>Web Design</p>
-            <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:50%">
+            <p>HTML & CSS</p>
+            <div class="w3-progress-container w3-round-xlarge w3-small w3-margin">
+                <div class="w3-progressbar w3-round-xlarge w3-blue" style="width:50%">
                     <div class="w3-center w3-text-white">50%</div>
                 </div>
             </div>
-       
+            <hr>
+
+            <h2 class="w3-text-grey "><i class="fa fa-globe fa-fw w3-margin-right w3-xxlarge "></i>History</h2>
+                <section class="timeline">
+                  <ul>
+                    <li>
+                      <div class= "w3-round-large">
+                          <b>2018</b></br> <p>Graduated from University of Calgary with a Bachelor of Science in Computer Science </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class= "w3-round-large">
+                          <b>2014</b></br> <p>Twitch Plays Pokemon, a glorious moment in history where thousands of individuals gather to 
+                             mindlessly finish Pokemon Yellow. This event generated countless of daily fresh memes as well as leaving a 
+                             legacy for all those to come. </br>
+                             Praise Helix ༼ つ ◕_◕ ༽つ
+                          </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class= "w3-round-large">
+                          <b>2013</b></br> <p>Start of my journey as a Computer Science student</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class= "w3-round-large">
+                          <b>1995</b></br> <p>The day I saw the Light!!!</p>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+            <hr>
+
+            <h2 class="w3-text-grey"><i class="fa fa-hand-peace-o fa-fw w3-margin-right w3-xxlarge "></i>Extra Facts</h2>
+            <p>
+                Well since you've made it all the way down here, it seems like your interested in me. </br>
+                Thanks, I'm flattered >///<.... </br>
+            </p>
         </div>
     </div>
 </body>
