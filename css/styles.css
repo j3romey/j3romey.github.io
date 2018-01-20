@@ -167,7 +167,7 @@ p{
 
 
 .test2{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(/images/2.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.9)), url(/images/2.png);
 }
 
 .test3{
@@ -175,7 +175,19 @@ p{
 }
 
 .test4{
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/images/4.png);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/4.png);
+}
+
+.test5{
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(/images/5.png);
+}
+
+.test6{
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/images/6.png);
+}
+
+.test7{
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75)), url(/images/7.png);
 }
 
 
@@ -186,9 +198,8 @@ p{
 
 .btn{
 	height: 50px;
-	width: 10%;
-	margin-left: 2%;
-	margin-right: 2%;
+	width: 30vh;
+	margin: 2%;
 }
 
 
@@ -212,17 +223,25 @@ p{
 	0px 18px 23px rgba(0,0,0,0.1); 
 }
 
-/* FORM*/
-form{
+
+.email{
+	padding: 10px 10px; 
+	line-height: 20px;
+	margin-top: 20px;
+	width: 60%;
+	background-color: rgba(255,255,255,0.95); 
+	border: 0px solid;
+	border-radius: 5px;
 }
 
-input{
-	margin-top: 20px;
-	width: 80%;
+textarea:focus, input:focus{ 
+	outline: none; 
 }
+
 .button{
 	margin-top: 20px;
-	width: 30%;
+	height: 50px;
+	width: 30vh;
 }
 
 
