@@ -76,8 +76,11 @@
 
 
 	.jumbotron{
-		height: 50vh !important;
+		height: 100vh !important;
 		padding-top: 0% !important;
+		background-size: 100vw*3;
+		background-position: center center;
+
 	}
 }
 
